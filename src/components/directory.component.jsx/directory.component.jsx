@@ -14,7 +14,7 @@ class Directory extends React.Component {
                     },
                     {
                         title: 'jackets',
-                        imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+                        imageUrl: 'https://img.freepik.com/free-photo/still-life-rendering-jackets-display_23-2149745027.jpg?uid=R162521018&ga=GA1.1.623535132.1734431641&semt=ais_hybrid',
                         id: 2,
                         linkUrl: 'shop/jackets'
                     },
@@ -37,7 +37,26 @@ class Directory extends React.Component {
                         size: 'large',
                         id: 5,
                         linkUrl: 'shop/mens'
-                    }]
+                    },
+                {
+                    title :"lingerie",
+                    imageUrl: 'https://shorturl.at/VgwM0',
+                    size: 'large',
+                    id: 6,
+                    linkUrl:'shop/lingerie'
+                },
+                {
+                    title: "pajamas",
+                    imageUrl: 'https://shorturl.at/5xX7J',
+                    size: ' all',
+                    id: 7,
+                    linkUrl:'shop/pajamas'
+                }
+
+
+
+
+        ]
         };
     }
     render() {
