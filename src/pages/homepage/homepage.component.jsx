@@ -3,7 +3,7 @@ import Directory from "../../components/directory.component.jsx/directory.compon
 import './hompage.styles.scss'
 const HomePage = () => (
     <div className='home-page'>
-        <Directory/>
+        <Directory />
     </div>
 )
 export default HomePage;
