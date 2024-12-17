@@ -22,7 +22,7 @@ Introduction
 IntrusticToon is a single-page application built with React. It leverages React Router for client-side navigation and SCSS for styling. The application includes a directory and menu items that guide users to different sections of the app.
 
 Features
-React Router v6 for routing
+  React Router v6 for routing
 
 SCSS for styling
 
@@ -36,16 +36,17 @@ Installation
 Follow these steps to get the project running on your local machine.
 
 Prerequisites
-Node.js(v14 or higher recommended)
+  Node.js(v14 or higher recommended)
 
 npm or yarn
 
 Steps
 Clone the repository:
-
-bash
-git clone https://github.com/yourusername/intrustictoon.git
-Navigate to the project directory:
+      ```
+      bash
+      git clone https://github.com/yourusername/intrustictoon.git
+      Navigate to the project directory:
+      ```
 
 bash
 cd intrustictoon
@@ -67,27 +68,27 @@ To add a new section to the directory, update the sections state in the Director
 Project Structure
 Here’s a brief overview of the project structure:
 
-intrustiction/
-├── public/
-│   ├── index.html
-│   └── ...
-├── src/
-│   ├── components/
-│   │   ├── directory/
-│   │   │   ├── directory.component.jsx
-│   │   │   ├── directory.styles.scss
-│   │   ├── menu-item/
-│   │   │   ├── menu-item.component.jsx
-│   │   │   ├── menu-item.styles.scss
-│   ├── pages/
-│   │   ├── homepage/
-│   │   │   ├── homepage.component.jsx
-│   │   │   ├── homepage.styles.scss
-│   ├── App.js
-│   ├── index.js
-│   ├── index.css
-│   └── ...
-└── package.json
+intrusction/
+              ├── public/
+              │   ├── index.html
+              │   └── ...
+              ├── src/
+              │   ├── components/
+              │   │   ├── directory/
+              │   │   │   ├── directory.component.jsx
+              │   │   │   ├── directory.styles.scss
+              │   │   ├── menu-item/
+              │   │   │   ├── menu-item.component.jsx
+              │   │   │   ├── menu-item.styles.scss
+              │   ├── pages/
+              │   │   ├── homepage/
+              │   │   │   ├── homepage.component.jsx
+              │   │   │   ├── homepage.styles.scss
+              │   ├── App.js
+              │   ├── index.js
+              │   ├── index.css
+              │   └── ...
+              └── package.json
 Contributing
 Contributions are welcome! If you have suggestions for improvements, please open an issue or submit a pull request.
 
@@ -112,4 +113,4 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contact
-For any inquiries, please contact yourname@example.com.
+For any inquiries, please contact freggymwangi@example.com.
