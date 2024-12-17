@@ -1,1 +1,70 @@
-.menu-item { display: grid; grid-template-rows: 200px auto; overflow: hidden; border: 1px solid #eaeaea; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); transition: transform 0.3s, box-shadow 0.3s; &:hover { transform: translateY(-5px); box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); .background-image { transform: scale(1.1); } .content { background-color: rgba(255, 255, 255, 0.9); } } .background-image { grid-row: 1 / 2; background-size: cover; background-position: center; transition: transform 0.3s; } .content { grid-row: 2 / 3; padding: 20px; background-color: rgba(0, 0, 0, 0.6); /* Add a semi-transparent dark background */ text-align: center; transition: background-color 0.3s; .title { font-size: 24px; margin-bottom: 10px; color: #fff; /* White text color */ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a more prominent shadow */ } .subtitle { font-size: 16px; color: #fff; /* White text color */ text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add a more prominent shadow */ } } }
+.menu-item {
+  display: grid;
+  grid-template-rows: 200px auto;
+  overflow: hidden;
+  border: 1px solid #eaeaea;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+    .background-image {
+      transform: scale(1.1);
+    }
+
+    .content {
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+  }
+
+  .background-image {
+    grid-row: 1 / 2;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.3s;
+  }
+
+  .content {
+    grid-row: 2 / 3;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    transition: background-color 0.3s;
+
+    .title, .subtitle {
+      color: #fff;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+
+    .title {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      font-size: 16px;
+    }
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .menu-item {
+    grid-template-rows: 150px auto;
+  }
+}
+
+@media (max-width: 900px) {
+  .menu-item {
+    grid-template-rows: 100px auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .menu-item {
+    grid-template-rows: 80px auto;
+  }
+}
